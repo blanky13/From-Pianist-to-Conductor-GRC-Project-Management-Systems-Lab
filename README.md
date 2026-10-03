@@ -121,3 +121,8 @@ flowchart LR
 
 A visual is not decoration. It must reduce cognitive load or make a relationship easier to see.
 
+
+
+## Visual Learning Standard
+
+This project uses an ADHD-friendly visual learning standard: concepts involving relationships, sequence, ownership, dependencies, or decisions should include an appropriate visual model. See [01-concept/visual-learning-system.md](01-concept/visual-learning-system.md).
