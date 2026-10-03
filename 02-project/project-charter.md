@@ -66,3 +66,24 @@ The project is successful when the laboratory can demonstrate:
 - auditable evidence
 - structured corrective actions
 - a clear explanation of how the coordinator adds value without replacing specialists
+
+## Project Mental Model
+
+```mermaid
+flowchart TD
+    B[Business Objective] --> P[Project Charter]
+    P --> S[Scope]
+    P --> ST[Stakeholders]
+    P --> O[Ownership / RACI]
+    S --> W[Work]
+    ST --> W
+    O --> W
+    W --> E[Evidence]
+    E --> A[Assurance]
+    A --> L[Lessons Learned]
+    L --> P
+```
+
+### One-Line Recall
+
+**Why → What → Who → How → Proof → Assurance → Improve**
