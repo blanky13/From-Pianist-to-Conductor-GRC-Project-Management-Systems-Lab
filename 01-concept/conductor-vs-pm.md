@@ -67,3 +67,29 @@ When a project is struggling, ask:
 > Is the problem a specialist capability gap, an ownership gap, a dependency gap, a communication gap, or a coordination gap?
 
 That question will become a recurring diagnostic tool throughout this laboratory.
+
+## Visual Mental Model
+
+```mermaid
+flowchart TB
+    G[Business Goal] --> S[Score / Requirements]
+    S --> C[Conductor: GRC / PM]
+    C --> T[Tempo / Schedule]
+    C --> Q[Cues / Communication]
+    C --> D[Dependencies]
+    C --> R[Risk / Recovery]
+    C --> O[Outcome]
+    T --> O
+    Q --> O
+    D --> O
+    R --> O
+    SP[Specialists] --> C
+    C --> SP
+```
+
+### Memory Hook
+
+**Conductor = alignment, not execution.**
+
+If the specialist must perform the technical task, the conductor's job is to make sure the task is **understood, owned, sequenced, supported, evidenced and connected to the outcome**.
+
