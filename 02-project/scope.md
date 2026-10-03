@@ -49,3 +49,22 @@ For any task, ask:
 ## Portfolio Learning Objective
 
 Practice distinguishing **coordination work** from **specialist execution work**.
+
+## Scope Boundary Visual
+
+```mermaid
+flowchart LR
+    G[Business / Security Goal] --> C[GRC Coordination]
+    C --> O[Owner]
+    O --> X[Specialist Execution]
+    X --> E[Evidence]
+    E --> V[Validation]
+    V --> C
+    C -. "does not replace" .-> X
+```
+
+### Quick Filter
+
+If the question is **"Who performs the specialist work?"**, find the owner.
+
+If the question is **"How do all the parts stay aligned?"**, that is the conductor's coordination problem.
