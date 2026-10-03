@@ -56,3 +56,20 @@ Every requirement introduced later in the project must be traceable to:
 - a validation method.
 
 If one of these links is missing, the requirement is not ready to enter a rehearsal scenario.
+
+## Score Mental Model
+
+```mermaid
+flowchart TD
+    B[Business Objective] --> E[External / ISMS Requirement]
+    E --> R[Risk / Control Need]
+    R --> C[Necessary Control]
+    C --> O[Owner]
+    O --> I[Implementation]
+    I --> P[Proof / Evidence]
+    P --> T[Test]
+```
+
+### Memory Hook
+
+**Why → Requirement → Risk → Control → Owner → Do → Prove → Test**
