@@ -51,6 +51,19 @@ The laboratory will progressively introduce:
 10. Findings and corrective actions
 11. Retrospective and lessons learned
 
+## Quality Gate
+
+Each release is checked for:
+
+- role and stakeholder continuity;
+- requirement-to-control traceability;
+- ownership and RACI alignment;
+- terminology consistency;
+- evidence and validation linkage;
+- dependencies between current and future phases.
+
+A later phase must update the relevant source-of-truth file when it introduces or changes an established concept.
+
 ## Version Roadmap
 
 - **v0.1 — Foundation:** learning architecture and analogy framework
@@ -66,9 +79,9 @@ The laboratory will progressively introduce:
 
 ## Status
 
-**Current release: v0.1 — Foundation**
+**Current release: v0.3 — Score**
 
-This is an evolving learning laboratory. Scenarios will be added incrementally and reviewed for practical GRC relevance.
+This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario.
 
 ## Disclaimer
 
