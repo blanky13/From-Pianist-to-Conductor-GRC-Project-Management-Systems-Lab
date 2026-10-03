@@ -44,3 +44,28 @@ Select one ISO-aligned control and identify:
 - Informed stakeholders
 - Evidence provider
 - Assurance function
+
+## Stakeholder System Map
+
+```mermaid
+flowchart TB
+    S[Sponsor] --> C[GRC / Project Lead]
+    C --> IT[IT]
+    C --> SEC[Security]
+    C --> HR[HR]
+    C --> OPS[Operations]
+    C --> LP[Legal / Privacy]
+    C --> AUD[Internal Audit]
+    IT --> E[Evidence]
+    SEC --> E
+    HR --> E
+    OPS --> E
+    LP --> E
+    E --> AUD
+    AUD --> F[Findings]
+    F --> C
+```
+
+### Stakeholder Recall
+
+**Sponsor decides → Conductor coordinates → Specialists execute → Evidence proves → Audit tests → Findings return to coordination.**
