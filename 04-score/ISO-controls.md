@@ -52,3 +52,20 @@ For every selected control, the project will eventually identify:
 ## Version Control
 
 This file intentionally uses the 2022 control structure. If the standard or applicable guidance changes, the project should update the reference version rather than silently mixing editions.
+
+## Control Dependency Map
+
+```mermaid
+flowchart TD
+    AC[Access Control] --> ID[Identity Management]
+    ID --> AR[Access Rights]
+    HR[HR Lifecycle] --> ID
+    AR --> JML[JML Workflow]
+    IR[Incident Management] --> LOG[Logging]
+    VM[Vulnerability Management] --> CH[Change Management]
+    LOG --> EV[Evidence]
+    CH --> EV
+    JML --> EV
+```
+
+The purpose of this map is to make the **cross-functional dependencies** visible before v0.4 begins.
