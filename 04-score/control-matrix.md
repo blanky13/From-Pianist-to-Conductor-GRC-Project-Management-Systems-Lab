@@ -57,3 +57,23 @@ The project will distinguish:
 **Evidence:** Can the organization demonstrate what happened?
 
 A policy alone does not prove effective operation.
+
+## Matrix Mental Model
+
+```mermaid
+flowchart LR
+    REQ[Requirement] --> CTRL[Control]
+    CTRL --> OWN[Owner]
+    OWN --> IMP[Implementation]
+    IMP --> EVD[Evidence]
+    EVD --> TEST[Validation]
+    TEST --> FIND[Finding]
+    FIND --> CA[Corrective Action]
+    CA --> IMP
+```
+
+### Evidence Ladder
+
+**Documented ≠ Implemented ≠ Operating ≠ Effective ≠ Proven**
+
+Later rehearsal and audit scenarios will deliberately test these distinctions.
