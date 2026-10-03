@@ -79,9 +79,9 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 ## Status
 
-**Current release: v0.5 — Conductor**
+**Current release: v0.6 — The Injury**
 
-This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario. v0.4 demonstrates this by reusing the existing RACI, control matrix and selected controls rather than creating parallel ownership models.
+This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario. v0.6 continues this by reusing the existing RACI, control matrix and selected controls while distinguishing temporary continuity arrangements from permanent ownership or process changes.
 
 
 ## Visual Project Roadmap
@@ -115,6 +115,11 @@ flowchart LR
 | Understand handoffs | [Handoffs](04-four-hands/handoffs.md) |
 | Run the JML rehearsal | [JML Scenario](04-four-hands/scenario-jml.md) |
 | Understand conductor decisions | [Conductor](06-conductor-scenarios/README.md) |
+| Understand disruption and continuity | [The Injury](07-injury/README.md) |
+| Use the disruption response model | [Disruption Model](07-injury/disruption-model.md) |
+| Practice disruption response | [Key Owner Unavailable](07-injury/scenario-01-key-owner-unavailable.md) |
+| Use the disruption playbook | [Response Playbook](07-injury/response-playbook.md) |
+| Check v0.6 continuity | [Quality Gate](07-injury/quality-gate.md) |
 | Use the decision framework | [Decision Framework](06-conductor-scenarios/decision-framework.md) |
 | Practice coordination scenarios | [Conductor Scenarios](06-conductor-scenarios/scenario-01-tempo.md) |
 | Check project continuity | [Quality Gate](06-conductor-scenarios/quality-gate.md) |
