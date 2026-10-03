@@ -79,9 +79,9 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 ## Status
 
-**Current release: v0.9 — Retrospective**
+**Current release: v1.0 — Portfolio Release**
 
-v0.9 captures the project's lessons, capability model and reflection framework without treating project completion as professional certification or competence.
+v1.0 consolidates the complete laboratory into a portfolio case study, final system map and release quality gate. It remains an educational simulation and does not claim certification or professional competence.
 
 ## Visual Project Roadmap
 
@@ -131,6 +131,10 @@ flowchart LR
 | Assess capability | [Capability Assessment](09-lessons/capability-assessment.md) |
 | Review GRC reflections | [GRC Reflections](09-lessons/GRC-reflections.md) |
 | Check v0.9 continuity | [Retrospective Quality Gate](09-lessons/quality-gate.md) |
+| Understand the final portfolio | [Portfolio Release](10-portfolio/README.md) |
+| See the complete system | [Final System Map](10-portfolio/final-system-map.md) |
+| Read the case study | [Portfolio Case Study](10-portfolio/case-study.md) |
+| Check the final release | [v1.0 Quality Gate](10-portfolio/quality-gate.md) |
 | Practice access/JML testing | [Access Control](05-rehearsals/access-control.md) |
 | Practice incident response | [Incident Response](05-rehearsals/incident-response.md) |
 | Practice vulnerability treatment | [Vulnerability Management](05-rehearsals/vulnerability-management.md) |
