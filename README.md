@@ -79,9 +79,9 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 ## Status
 
-**Current release: v0.7 — Rehearsal**
+**Current release: v0.8 — Performance / Audit Simulation**
 
-v0.7 extends the existing RACI, control matrix, dependency model, evidence chain and v0.6 continuity model into controlled implementation and testing. No new orphan control is introduced.
+v0.8 extends the existing rehearsal, evidence and control models into an evidence-based audit simulation. No new orphan control is introduced.
 
 ## Visual Project Roadmap
 
@@ -120,6 +120,12 @@ flowchart LR
 | Use the disruption playbook | [Response Playbook](07-injury/response-playbook.md) |
 | Check v0.6 continuity | [Quality Gate](07-injury/quality-gate.md) |
 | Understand implementation and testing | [Rehearsal](05-rehearsals/README.md) |
+| Understand audit simulation | [Performance](08-audit/README.md) |
+| Plan the audit | [Audit Plan](08-audit/audit-plan.md) |
+| Practice evidence challenge | [Evidence Challenge](08-audit/evidence-challenge.md) |
+| Classify findings | [Finding Classification](08-audit/finding-classification.md) |
+| Practice corrective action | [Corrective Action](08-audit/corrective-action.md) |
+| Check v0.8 continuity | [Audit Quality Gate](08-audit/quality-gate.md) |
 | Practice access/JML testing | [Access Control](05-rehearsals/access-control.md) |
 | Practice incident response | [Incident Response](05-rehearsals/incident-response.md) |
 | Practice vulnerability treatment | [Vulnerability Management](05-rehearsals/vulnerability-management.md) |
