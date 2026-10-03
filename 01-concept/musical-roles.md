@@ -28,3 +28,35 @@ They are synchronizing different specialist contributions toward one control obj
 ## Boundary
 
 Roles remain accountable for their assigned responsibilities. The analogy is intended to clarify coordination, not erase organizational accountability.
+
+## Role Mind Map
+
+```mermaid
+mindmap
+  root((OrchestraX))
+    Sponsor
+      Outcome
+      Decisions
+      Resources
+    Conductor
+      Coordination
+      Dependencies
+      Escalation
+      Assurance
+    Section Leaders
+      Control ownership
+      Functional coordination
+    Specialists
+      Technical execution
+      Functional expertise
+    Score
+      Requirements
+      Controls
+      Evidence expectations
+    Performance
+      Testing
+      Audit
+      Management review
+```
+
+This is the quick-recall model for the project's role hierarchy.
