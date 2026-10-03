@@ -83,6 +83,35 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario.
 
+
+## Visual Project Roadmap
+
+```mermaid
+flowchart LR
+    V1[Foundation<br/>Mental Model] --> V2[Orchestra<br/>Who / Roles]
+    V2 --> V3[Score<br/>Why / Controls]
+    V3 --> V4[Four Hands<br/>Dependencies]
+    V4 --> V5[Conductor<br/>Decisions]
+    V5 --> V6[Injury<br/>Disruption]
+    V6 --> V7[Rehearsal<br/>Implementation]
+    V7 --> V8[Performance<br/>Audit]
+    V8 --> V9[Retrospective<br/>Improve]
+    V9 --> V10[Portfolio<br/>Case Study]
+```
+
+### Visual Index
+
+| Need | Start here |
+|---|---|
+| Understand the whole learning method | [Visual Learning System](01-concept/visual-learning-system.md) |
+| Understand conductor vs GRC/PM | [Conductor vs Project Manager](01-concept/conductor-vs-pm.md) |
+| See the complete GRC system | [Orchestra to GRC Systems Map](01-concept/orchestra-to-grc.md) |
+| Understand roles quickly | [Musical Roles and GRC Roles](01-concept/musical-roles.md) |
+| Understand ownership | [RACI](03-orchestra/RACI.md) |
+| Understand requirements and controls | [The Score](04-score/requirements.md) |
+| Trace controls to evidence | [Control Matrix](04-score/control-matrix.md) |
+| Check project continuity | [Quality Gate](04-score/quality-gate.md) |
+
 ## Disclaimer
 
 The musical analogy is an educational framework. It does not replace formal ISO/IEC 27001 requirements, organizational procedures, professional judgment, or audit guidance.
