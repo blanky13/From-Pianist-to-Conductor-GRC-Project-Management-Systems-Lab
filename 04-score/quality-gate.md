@@ -104,3 +104,27 @@ The project now has a continuous chain:
 **Business Objective → Requirements → Controls → Ownership → Implementation → Evidence → Validation**
 
 This chain will be preserved through all later phases.
+
+## Quality Gate Visual
+
+```mermaid
+flowchart LR
+    F[Foundation] --> O[Orchestra]
+    O --> S[Score]
+    S --> Q{Quality Gate}
+    Q -->|PASS| FH[Four Hands]
+    Q -->|FAIL| RC[Repair / Reconcile]
+    RC --> S
+```
+
+## Visual Continuity Check
+
+Before advancing, ask:
+
+1. **Can I see the system?**
+2. **Can I see who owns each part?**
+3. **Can I trace requirement → control → evidence?**
+4. **Can I see where the next phase connects?**
+5. **Can a new scenario be explained without inventing a disconnected model?**
+
+**Status: PASS for v0.3.**
