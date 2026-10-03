@@ -86,3 +86,38 @@ This is an evolving learning laboratory. Each phase has a continuity quality gat
 ## Disclaimer
 
 The musical analogy is an educational framework. It does not replace formal ISO/IEC 27001 requirements, organizational procedures, professional judgment, or audit guidance.
+
+## ADHD-Friendly Visual Learning Standard
+
+This laboratory is designed for **active, visual learning**, not document accumulation.
+
+### Default rule
+
+When a concept involves **relationships, sequence, hierarchy, ownership, dependency, or decision flow**, the project should provide a visual model alongside the written explanation.
+
+Preferred formats:
+
+- **Mind map** — for concepts and relationships
+- **Flowchart** — for processes and sequences
+- **System map** — for cross-functional relationships
+- **RACI/table** — for ownership
+- **Traceability chain** — for requirements-to-evidence relationships
+- **Scenario timeline** — for events and escalation
+- **Decision tree** — for choosing an action
+
+Plain English remains the explanation layer. Visuals become the **working-memory layer**.
+
+### Visual-first learning loop
+
+```mermaid
+flowchart LR
+    C[Concept] --> V[Visual Model]
+    V --> E[Example]
+    E --> S[Scenario]
+    S --> R[Reflection]
+    R --> M[Memory / Mental Model]
+    M --> C
+```
+
+A visual is not decoration. It must reduce cognitive load or make a relationship easier to see.
+
