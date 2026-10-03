@@ -79,10 +79,9 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 ## Status
 
-**Current release: v0.6 — The Injury**
+**Current release: v0.7 — Rehearsal**
 
-This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario. v0.6 continues this by reusing the existing RACI, control matrix and selected controls while distinguishing temporary continuity arrangements from permanent ownership or process changes.
-
+v0.7 extends the existing RACI, control matrix, dependency model, evidence chain and v0.6 continuity model into controlled implementation and testing. No new orphan control is introduced.
 
 ## Visual Project Roadmap
 
@@ -120,9 +119,12 @@ flowchart LR
 | Practice disruption response | [Key Owner Unavailable](07-injury/scenario-01-key-owner-unavailable.md) |
 | Use the disruption playbook | [Response Playbook](07-injury/response-playbook.md) |
 | Check v0.6 continuity | [Quality Gate](07-injury/quality-gate.md) |
-| Use the decision framework | [Decision Framework](06-conductor-scenarios/decision-framework.md) |
-| Practice coordination scenarios | [Conductor Scenarios](06-conductor-scenarios/scenario-01-tempo.md) |
-| Check project continuity | [Quality Gate](06-conductor-scenarios/quality-gate.md) |
+| Understand implementation and testing | [Rehearsal](05-rehearsals/README.md) |
+| Practice access/JML testing | [Access Control](05-rehearsals/access-control.md) |
+| Practice incident response | [Incident Response](05-rehearsals/incident-response.md) |
+| Practice vulnerability treatment | [Vulnerability Management](05-rehearsals/vulnerability-management.md) |
+| Test evidence quality | [Evidence Testing](05-rehearsals/evidence-testing.md) |
+| Check v0.7 continuity | [Rehearsal Quality Gate](05-rehearsals/quality-gate.md) |
 
 ## Disclaimer
 
@@ -132,23 +134,19 @@ The musical analogy is an educational framework. It does not replace formal ISO/
 
 This laboratory is designed for **active, visual learning**, not document accumulation.
 
-### Default rule
-
-When a concept involves **relationships, sequence, hierarchy, ownership, dependency, or decision flow**, the project should provide a visual model alongside the written explanation.
+When a concept involves relationships, sequence, hierarchy, ownership, dependency, or decision flow, the project should provide a visual model alongside the written explanation.
 
 Preferred formats:
 
-- **Mind map** — for concepts and relationships
-- **Flowchart** — for processes and sequences
-- **System map** — for cross-functional relationships
-- **RACI/table** — for ownership
-- **Traceability chain** — for requirements-to-evidence relationships
-- **Scenario timeline** — for events and escalation
-- **Decision tree** — for choosing an action
+- **Mind map** — concepts and relationships
+- **Flowchart** — processes and sequences
+- **System map** — cross-functional relationships
+- **RACI/table** — ownership
+- **Traceability chain** — requirements-to-evidence relationships
+- **Scenario timeline** — events and escalation
+- **Decision tree** — choosing an action
 
 Plain English remains the explanation layer. Visuals become the **working-memory layer**.
-
-### Visual-first learning loop
 
 ```mermaid
 flowchart LR
@@ -161,9 +159,3 @@ flowchart LR
 ```
 
 A visual is not decoration. It must reduce cognitive load or make a relationship easier to see.
-
-
-
-## Visual Learning Standard
-
-This project uses an ADHD-friendly visual learning standard: concepts involving relationships, sequence, ownership, dependencies, or decisions should include an appropriate visual model. See [01-concept/visual-learning-system.md](01-concept/visual-learning-system.md).
