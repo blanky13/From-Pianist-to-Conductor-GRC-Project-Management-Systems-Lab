@@ -74,3 +74,19 @@ When something is not working, determine whether the underlying problem is:
 6. Resources
 7. Requirement clarity
 8. Control design
+
+## Responsibility Flow
+
+```mermaid
+flowchart LR
+    S[Sponsor] --> C[Conductor]
+    C --> L[Section Leader]
+    L --> M[Specialist]
+    M --> E[Evidence]
+    E --> A[Assurance]
+    A --> C
+```
+
+### Role Boundary
+
+**The higher you move in the model, the wider the coordination responsibility becomes; it does not mean the specialist work disappears.**
