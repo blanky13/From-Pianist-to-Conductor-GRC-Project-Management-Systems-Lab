@@ -79,7 +79,7 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 ## Status
 
-**Current release: v0.4 — Four Hands**
+**Current release: v0.5 — Conductor**
 
 This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario. v0.4 demonstrates this by reusing the existing RACI, control matrix and selected controls rather than creating parallel ownership models.
 
@@ -114,7 +114,10 @@ flowchart LR
 | Map dependencies | [Dependencies](04-four-hands/dependencies.md) |
 | Understand handoffs | [Handoffs](04-four-hands/handoffs.md) |
 | Run the JML rehearsal | [JML Scenario](04-four-hands/scenario-jml.md) |
-| Check project continuity | [Quality Gate](04-four-hands/quality-gate.md) |
+| Understand conductor decisions | [Conductor](06-conductor-scenarios/README.md) |
+| Use the decision framework | [Decision Framework](06-conductor-scenarios/decision-framework.md) |
+| Practice coordination scenarios | [Conductor Scenarios](06-conductor-scenarios/scenario-01-tempo.md) |
+| Check project continuity | [Quality Gate](06-conductor-scenarios/quality-gate.md) |
 
 ## Disclaimer
 
