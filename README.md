@@ -79,9 +79,9 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 ## Status
 
-**Current release: v0.3 — Score**
+**Current release: v0.4 — Four Hands**
 
-This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario.
+This is an evolving learning laboratory. Each phase has a continuity quality gate before the project advances. New concepts must connect to an existing source of truth rather than appearing only inside a scenario. v0.4 demonstrates this by reusing the existing RACI, control matrix and selected controls rather than creating parallel ownership models.
 
 
 ## Visual Project Roadmap
@@ -110,7 +110,11 @@ flowchart LR
 | Understand ownership | [RACI](03-orchestra/RACI.md) |
 | Understand requirements and controls | [The Score](04-score/requirements.md) |
 | Trace controls to evidence | [Control Matrix](04-score/control-matrix.md) |
-| Check project continuity | [Quality Gate](04-score/quality-gate.md) |
+| Understand Four Hands collaboration | [Four Hands](04-four-hands/README.md) |
+| Map dependencies | [Dependencies](04-four-hands/dependencies.md) |
+| Understand handoffs | [Handoffs](04-four-hands/handoffs.md) |
+| Run the JML rehearsal | [JML Scenario](04-four-hands/scenario-jml.md) |
+| Check project continuity | [Quality Gate](04-four-hands/quality-gate.md) |
 
 ## Disclaimer
 
