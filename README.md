@@ -79,9 +79,9 @@ A later phase must update the relevant source-of-truth file when it introduces o
 
 ## Status
 
-**Current release: v0.8 — Performance / Audit Simulation**
+**Current release: v0.9 — Retrospective**
 
-v0.8 extends the existing rehearsal, evidence and control models into an evidence-based audit simulation. No new orphan control is introduced.
+v0.9 captures the project's lessons, capability model and reflection framework without treating project completion as professional certification or competence.
 
 ## Visual Project Roadmap
 
@@ -126,6 +126,11 @@ flowchart LR
 | Classify findings | [Finding Classification](08-audit/finding-classification.md) |
 | Practice corrective action | [Corrective Action](08-audit/corrective-action.md) |
 | Check v0.8 continuity | [Audit Quality Gate](08-audit/quality-gate.md) |
+| Understand the retrospective | [Retrospective](09-lessons/README.md) |
+| Review conductor lessons | [Conductor Lessons](09-lessons/conductor-lessons.md) |
+| Assess capability | [Capability Assessment](09-lessons/capability-assessment.md) |
+| Review GRC reflections | [GRC Reflections](09-lessons/GRC-reflections.md) |
+| Check v0.9 continuity | [Retrospective Quality Gate](09-lessons/quality-gate.md) |
 | Practice access/JML testing | [Access Control](05-rehearsals/access-control.md) |
 | Practice incident response | [Incident Response](05-rehearsals/incident-response.md) |
 | Practice vulnerability treatment | [Vulnerability Management](05-rehearsals/vulnerability-management.md) |
