@@ -57,3 +57,17 @@ Then diagnose:
 - Which stakeholder has been unnecessarily included?
 
 Then correct the model.
+
+## RACI as a Visual
+
+```mermaid
+flowchart LR
+    R[Responsible] -->|"does"| W[Work]
+    A[Accountable] -->|"owns outcome"| W
+    C[Consulted] -->|"advises"| W
+    I[Informed] -->|"receives result"| W
+```
+
+### RACI Memory Rule
+
+**R does the work. A owns the outcome. C helps decide/design. I needs awareness.**
